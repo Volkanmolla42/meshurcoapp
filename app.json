@@ -43,6 +43,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bdbceee3-09b2-4bf7-8b5d-56056a140ba0"
+      }
+    },
+    "owner": "volkanmolla"
   }
 }

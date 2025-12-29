@@ -4,7 +4,7 @@
     "slug": "meshurco",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/app-foreground.webp",
+    "icon": "./assets/images/icon.png",
     "scheme": "meshurco",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -16,29 +16,29 @@
       "package": "co.meshur.app",
       "adaptiveIcon": {
         "backgroundColor": "#F76900",
-        "foregroundImage": "./assets/images/app-foreground.webp",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/app-foreground.webp"
+        "monochromeImage": "./assets/images/android-icon-foreground.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/app-foreground.webp"
+      "favicon": "./assets/images/icon.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/app-foreground.webp",
+          "image": "./assets/images/splash-icon.png",
           "imageWidth": 250,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#F76900",
           "dark": {
-            "backgroundColor": "#121212",
-            "image": "./assets/images/app-foreground.webp"
+            "backgroundColor": "#F76900",
+            "image": "./assets/images/splash-icon.png"
           }
         }
       ]
